@@ -1,0 +1,8 @@
+# 20230627_ROC_curve_of_pvalue_after_cutoff_using_TPM_data
+
+# 解析の目的
+Treiber et al (2017)の論文で発見された物理的相互作用のある組み合わせを用いて、miRNA生合成とRBP発現量の相関解析で物理的相互作用のある組み合わせを濃縮できているかROC曲線で評価する
+
+# ファイルの説明
+・20230627_draw_ROC_curve_of_pvalue_after_cutoff_using_TPM_data.R
+<br>"20230517_CCLE_correlation_between_residual_and_RBPDB_RBP_RSEM_TPM"で得られた結果とTreiberの物理的相互作用のリストを用いて、p値に対してROC曲線を描くスクリプト。スクリプトを走らせるにあたって必要なファイルとその場所はスクリプト中に記載されている。
